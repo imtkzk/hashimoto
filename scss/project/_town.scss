@@ -1,0 +1,656 @@
+/*  town CSS
+------------------------------------------------------------------------------*/
+.town {
+    .town-hero {
+        .swiper-wrapper img{
+            width: 100%;
+            height: vw-sp(500);
+            object-fit: cover;
+        }
+    }
+
+    .collabo-img {
+        max-width: vw-sp(690);
+        margin: vw-sp(80) auto;
+    }
+
+    .sec-townintro {
+        background: url("../img/town/townintro-bg-2x.png") no-repeat center center;
+        background-size: cover;
+        padding: vw-sp(80) 0;
+
+        .sec-cmn-cont-head {
+            text-align: center;
+            position: relative;
+        }
+
+        .sec-cmn-cont-head::before {
+            content: "";
+            position: absolute;
+            background: url("../img/town/townintro-title-before-2x.png") no-repeat top left;
+            background-size: contain;
+            width: vw-sp(200);
+            height: vw-sp(130);
+            top: vw-sp(-80);
+            left: 0;
+            z-index: -1;
+        }
+
+        .sec-cmn-cont-head::after {
+            content: "";
+            position: absolute;
+            background: url("../img/town/townintro-title-after-2x.png") no-repeat top right;
+            background-size: contain;
+            width: vw-sp(200);
+            height: vw-sp(130);
+            top: vw-sp(-80);
+            right: 0;
+            z-index: -1;
+        }
+
+        .sec-cmn-cont {
+            max-width: vw-sp(690);
+            margin: 0 auto;
+            text-align: center;
+            border-top: vw-sp(1) solid #333;
+
+            .comment {
+                .comment-title {
+                    color: $color-main;
+                    font-weight: 600;
+                    margin: vw-sp(20) 0;
+                    font-size: vw-sp(36);
+                }
+                .comment-txt{
+                    text-align: left;
+                }
+            }
+        }
+
+        .maketown {
+            margin-top: vw-sp(50);
+            padding-bottom: vw-sp(100);
+            position: relative;
+
+            .maketown-title {
+                font-size: vw-sp(42);
+                font-weight: 500;
+                color: $color-main;
+                text-align: center;
+            }
+
+            .maketown-list {
+                margin: vw-sp(50) auto;
+                max-width: vw-sp(690);
+            }
+
+            .maketown-list::after {
+                content: "";
+                background: url("../img/town/townintro-bottom-2x-sp.png") no-repeat center bottom;
+                background-size: contain;
+                width: vw-sp(690);
+                height: vw-sp(250);
+                bottom: 0;
+                position: absolute;
+                margin: 0 auto;
+            }
+        }
+    }
+
+    .sec-thought {
+        max-width: vw-sp(690);
+        margin: vw-sp(60) auto 0;
+
+        .sec-cmn-cont-head {
+            text-align: center;
+        }
+
+        .sec-cmn-cont-box {
+            border-bottom: none;
+            border-width: vw-sp(1);
+            position: relative;
+            padding-bottom: vw-sp(130);
+        }
+
+        .message {
+            .message-right {
+                margin-top: vw-sp(30);
+            }
+        }
+
+        .thought-list {
+            position: relative;
+
+            .thought-list-title {
+                background-color: $color-main;
+                display: block;
+                line-height: vw-sp(100);
+                color: $color-base;
+                font-weight: 500;
+                font-size: vw-sp(36);
+                margin-top: vw-sp(50);
+            }
+
+            .list-box {
+                dt {
+                    color: $color-main;
+                    height: vw-sp(100);
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-weight: 600;
+                    font-size: vw-sp(32);
+                }
+                dd{
+                    text-align: left;
+                }
+            }
+        }
+
+        .sec-cmn-cont-box::after {
+            content: "";
+            background: url("../img/town/thought-bottom-2x-sp.png") no-repeat center bottom;
+            background-size: contain;
+            width: vw-sp(690);
+            height: vw-sp(200);
+            bottom: 0;
+            position: absolute;
+        }
+    }
+
+    .sec-philosophy {
+        text-align: center;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: vw-sp(80);
+        .sec-cmn-cont-box {
+            border-top: vw-sp(1) solid #333;
+            border-bottom: none;
+            max-width: vw-sp(690);
+            margin-right: auto;
+            margin-left: auto;
+        }
+
+        .philosophy-intro {
+            dt {
+                color: $color-main;
+                font-size: vw-sp(36);
+                font-weight: 500;
+                margin-bottom: vw-sp(30);
+            }
+            dd{
+                text-align: left;
+            }
+        }
+
+        .philosophy-list {
+            background-color: $color-main;
+            padding: vw-sp(30);
+            margin-top: 0;
+
+            dl {
+                border-bottom: vw-sp(1) solid $color-base;
+                margin-bottom: vw-sp(20);
+                text-align: left;
+
+                dt {
+                    width: 100%;
+                    background-color: $color-base;
+                    padding: vw-sp(40) vw-sp(20);
+                    font-weight: 600;
+                    position: relative;
+                    padding-right: vw-sp(100);
+                    display: flex;
+                    align-items: center;
+                }
+
+                dt::after {
+                    content: "";
+                    position: absolute;
+                    top: 50%;
+                    -webkit-transform: translate-y(0, -50%);
+                    transform: translate(0, -50%);
+                    right: vw-sp(20);
+                    width: vw-sp(80);
+                    height: vw-sp(80);
+                }
+
+                dd {
+                    display: flex;
+                    align-items: center;
+                    padding: vw-sp(10);
+                    width: 100%;
+
+                    ul {
+                        color: $color-base;
+
+                        li {
+                            text-indent: -1em;
+                            padding-left: 1em;
+                        }
+
+                        li::before {
+                            content: "・";
+                        }
+                    }
+                }
+            }
+
+            .list-01 dt {
+                color: #00CEFF;
+            }
+
+            .list-01 dt::after {
+                background: url("../img/town/philosophy-list01-2x.png") no-repeat center center;
+                background-size: contain;
+            }
+
+            .list-02 dt {
+                color: #7B00D9;
+            }
+
+            .list-02 dt::after {
+                background: url("../img/town/philosophy-list02-2x.png") no-repeat center center;
+                background-size: contain;
+            }
+
+            .list-03 dt {
+                color: #39D900;
+            }
+
+            .list-03 dt::after {
+                background: url("../img/town/philosophy-list03-2x.png") no-repeat center center;
+                background-size: contain;
+            }
+
+            .list-04 dt {
+                color: #D90089;
+            }
+
+            .list-04 dt::after {
+                background: url("../img/town/philosophy-list04-2x.png") no-repeat center center;
+                background-size: contain;
+            }
+
+            .list-05 dt {
+                color: #D9AE00;
+            }
+
+            .list-05 dt::after {
+                background: url("../img/town/philosophy-list05-2x.png") no-repeat center center;
+                background-size: contain;
+            }
+
+            .list-06 dt {
+                color: #000ED9;
+            }
+
+            .list-06 dt::after {
+                background: url("../img/town/philosophy-list06-2x.png") no-repeat center center;
+                background-size: contain;
+            }
+
+            .list-07 dt {
+                color: #D95E00;
+            }
+
+            .list-07 dt::after {
+                background: url("../img/town/philosophy-list07-2x.png") no-repeat center center;
+                background-size: contain;
+            }
+        }
+    }
+}
+@media screen and (min-width: $breakpoint1) {
+    .town {
+        .town-hero {
+            .hero-img {
+                background: url("../img/town/hero-pc.png") no-repeat center center;
+                background-size: cover;
+                height: vw-pc(500);
+            }
+        }
+        .town-hero-bottom {
+            .hero-bottom-list {
+                display: flex;
+                justify-content: space-around;
+                width: 98%;
+                max-width: 1300px;
+                margin: 0 auto;
+                li{
+                    width: vw-pc(320);
+                    font-size: vw-pc(16);
+                }
+            }
+        }
+        .collabo-img {
+            max-width: vw-pc(900);
+            margin: vw-pc(80) auto;
+        }
+
+        .sec-townintro {
+            padding: vw-pc(80) 0;
+
+            .sec-cmn-cont-head {
+                text-align: center;
+                position: relative;
+            }
+
+            .sec-cmn-cont-head::before {
+                width: vw-pc(280);
+                height: vw-pc(200);
+                top: vw-pc(-80);
+                left: 0;
+            }
+
+            .sec-cmn-cont-head::after {
+                width: vw-pc(280);
+                height: vw-pc(200);
+                top: vw-pc(-80);
+                right: 0;
+            }
+
+            .sec-cmn-cont {
+                max-width: vw-pc(1000);
+                border-top: vw-pc(1) solid #333;
+                text-align: center;
+
+                .comment {
+                    .comment-title {
+                        margin: vw-pc(20) 0;
+                        font-size: vw-pc(24);
+                    }
+                    .comment-txt{
+                        text-align: center;
+                    }
+                }
+            }
+
+            .maketown {
+                margin-top: vw-pc(50);
+                padding-bottom: vw-pc(200);
+
+                .maketown-title {
+                    font-size: vw-pc(28);
+                }
+
+                .maketown-list {
+                    margin: vw-pc(50) auto;
+                    max-width: vw-pc(960);
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                }
+
+                .maketown-list::after {
+                    background: url("../img/town/townintro-bottom-2x.png") no-repeat center bottom;
+                    background-size: contain;
+                    width: vw-pc(900);
+                    height: vw-pc(245);
+                }
+            }
+        }
+
+        .sec-thought {
+            max-width: vw-pc(960);
+            margin-top: vw-pc(50);
+
+
+            .sec-cmn-cont-box {
+                border-width: vw-pc(1);
+                padding-bottom: vw-pc(130);
+            }
+
+            .message {
+                display: flex;
+                justify-content: space-between;
+                .message-left {
+                    width: vw-pc(400);
+                }
+
+                .message-right {
+                    width: vw-pc(540);
+                    margin-top: 0;
+                }
+            }
+
+            .thought-list {
+
+                .thought-list-title {
+                    line-height: vw-pc(70);
+                    font-size: vw-pc(24);
+                    margin-top: vw-pc(50);
+                }
+
+                .list-box {
+                    dt {
+                        height: vw-pc(70);
+                        font-size: vw-pc(18);
+                    }
+                    dd{
+                        text-align: center;
+                    }
+                }
+            }
+
+            .sec-cmn-cont-box::after {
+                background: url("../img/town/thought-bottom-2x.png") no-repeat center bottom;
+                background-size: contain;
+                width: vw-pc(960);
+                height: vw-pc(100);
+            }
+        }
+
+        .sec-philosophy {
+            max-width: vw-pc(960);
+            margin-top: vw-pc(80);
+
+            .sec-cmn-cont-box {
+                border-top: vw-pc(1) solid #333;
+            }
+
+            .philosophy-intro {
+                dt {
+                    font-size: vw-pc(24);
+                    margin-bottom: vw-pc(30);
+                }
+                dd{
+                    text-align: center;
+                }
+            }
+
+            .philosophy-list {
+                padding: vw-pc(30);
+                margin-top: 0;
+                margin-bottom: vw-pc(50);
+
+                dl {
+                    display: flex;
+                    justify-content: space-between;
+                    border-bottom: vw-pc(1) solid $color-base;
+                    margin-bottom: vw-pc(20);
+
+                    dt {
+                        width: vw-pc(460);
+                        padding: vw-pc(20);
+                        padding-right: vw-pc(100);
+                    }
+
+                    dt::after {
+                        right: vw-pc(20);
+                        width: vw-pc(60);
+                        height: vw-pc(60);
+                    }
+
+                    dd {
+                        padding: vw-pc(10);
+                        font-size: vw-pc(13);
+
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (min-width: $breakpoint2) {
+    .town {
+        .town-hero {
+            .hero-img{
+                height: 500px;
+            }
+        }
+        .town-hero-bottom {
+            .hero-bottom-list {
+                max-width: 1300px;
+                li{
+                    width: 32%;
+                    font-size: 16px;
+                }
+            }
+        }
+
+        .collabo-img {
+            max-width: 900px;
+            margin: 80px auto;
+        }
+
+        .sec-townintro {
+            padding: 80px 0;
+
+            .sec-cmn-cont-head::before {
+                width: 280px;
+                height: 200px;
+                top: -80px;
+                left: 0;
+            }
+
+            .sec-cmn-cont-head::after {
+                width: 280px;
+                height: 200px;
+                top: -80px;
+                right: 0;
+            }
+
+            .sec-cmn-cont {
+                max-width: 1000px;
+                border-top: 1px solid #333;
+
+                .comment {
+                    .comment-title {
+                        margin: 20px 0;
+                        font-size: 24px;
+                    }
+                }
+            }
+
+            .maketown {
+                margin-top: 50px;
+                padding-bottom: 200px;
+
+                .maketown-title {
+                    font-size: 28px;
+                    font-weight: 500;
+                }
+
+                .maketown-list {
+                    margin: 50px auto;
+                    width: 96%;
+                    max-width: 1200px;
+                }
+
+                .maketown-list::after {
+                    width: 1200px;
+                    height: 245px;
+                }
+            }
+        }
+
+        .sec-thought {
+            max-width: 1000px;
+            margin-top: 50px;
+
+            .sec-cmn-cont-box {
+                border-width: 1px;
+                padding-bottom: 130px;
+            }
+
+            .message {
+
+                .message-left {
+                    width: 400px;
+                }
+
+                .message-right {
+                    width: 580px;
+                }
+            }
+
+            .thought-list {
+
+                .thought-list-title {
+                    line-height: 70px;
+                    font-size: 24px;
+                    margin-top: 50px;
+                }
+
+                .list-box {
+                    dt {
+                        height: 70px;
+                        font-size: 18px;
+                    }
+                }
+            }
+
+            .sec-cmn-cont-box::after {
+                width: 1000px;
+                height: 100px;
+            }
+        }
+
+        .sec-philosophy {
+            max-width: 1000px;
+            margin-top: 80px;
+
+            .sec-cmn-cont-box {
+                border-top: 1px solid #333;
+            }
+
+            .philosophy-intro {
+                dt {
+                    font-size: 24px;
+                    font-weight: 500;
+                    margin-bottom: 30px;
+                }
+            }
+
+            .philosophy-list {
+                padding: 30px;
+                margin-top: 0;
+                margin-bottom: 50px;
+
+                dl {
+                    border-bottom: 1px solid $color-base;
+                    margin-bottom: 20px;
+
+                    dt {
+                        width: 445px;
+                        padding: 20px;
+                        padding-right: 100px;
+                    }
+
+                    dt::after {
+                        right: 20px;
+                        width: 60px;
+                        height: 60px;
+                    }
+
+                    dd {
+                        padding: 10px;
+                        font-size: 13px;
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}

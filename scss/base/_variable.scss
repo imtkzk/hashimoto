@@ -1,0 +1,28 @@
+// main: ../style.scss;
+
+$color-base: #fff;
+$color-main: #174788;
+$color-text: #434242;
+$color-red: #e27a62;
+$color-orange: #FCA800;
+$color-orange02: #FEA685;
+$color-green: #B7CF44;
+$font1: "Hiragino Sans",Meiryo,sans-serif;
+
+$breakpoint1: 769px;
+$breakpoint1-max: 768px;
+$breakpoint2: 1001px;
+$breakpoint2-max: 1000px;
+$max-width: 1000px;
+$sp-width: 750;
+$pc-width: 1000;
+
+@function vw-sp($size, $viewport:750) {
+  $rate: 100 / $viewport;
+  @return $rate * $size * 1vw;
+}
+
+@function vw-pc($size, $viewport:1000) {
+  $rate: 100 / $viewport;
+  @return $rate * $size * 1vw;
+}

@@ -1,0 +1,88 @@
+// main: ../style.scss
+
+/*  UTILIS
+------------------------------------------------------------------------------*/
+.txt-shadow-blue{
+   text-shadow: vw-sp(2) vw-sp(3) vw-sp(1) #05aed6;
+}
+.txt-shadow-green{
+   text-shadow: vw-sp(2) vw-sp(3) vw-sp(1) #B7CF44;
+}
+.txt-shadow-orange{
+   text-shadow: vw-sp(2) vw-sp(3) vw-sp(1) $color-orange;
+}
+.txt-shadow-black{
+   text-shadow: vw-sp(2) vw-sp(3) vw-sp(1) $color-text;
+}
+@media screen and (min-width:$breakpoint1){
+  .txt-shadow-blue{
+    text-shadow: vw-pc(2) vw-pc(2) vw-pc(1) #05aed6;
+  }
+  .txt-shadow-green{
+    text-shadow: vw-pc(2) vw-pc(2) vw-pc(1) #B7CF44;
+  }
+  .txt-shadow-orange{
+    text-shadow: vw-pc(2) vw-pc(2) vw-pc(1) $color-orange;
+  }
+  .txt-shadow-black{
+    text-shadow: vw-pc(2) vw-pc(2) vw-pc(1) $color-text;
+  }
+}
+@media screen and (min-width:$breakpoint2){
+  .txt-shadow-blue{
+    text-shadow: 2px 2px 1px #05aed6;
+  }
+  .txt-shadow-green{
+    text-shadow: 2px 2px 1px #B7CF44;
+  }
+  .txt-shadow-orange{
+    text-shadow: 2px 2px 1px $color-orange;
+  }
+  .txt-shadow-black{
+    text-shadow: 2px 2px 1px $color-text;
+  }
+}
+/*  配置
+-------------------------------------------------------*/
+
+.left { text-align: left; }
+.right { text-align: right; }
+.center { text-align: center; }
+
+@media screen and (max-width: $breakpoint1-max) {
+  .none--sp { display: none  !important; }
+  .br--pc { display: none; }
+  .br--sp { display: block; }
+}
+
+
+@media screen and (min-width: $breakpoint1) {
+  .none--pc { display: none  !important;}
+  .br--pc { display: block; }
+  .br--sp { display: none; }
+}
+
+/*  画像
+-------------------------------------------------------*/
+
+.img--fit {
+	width: 100%;
+	max-width: 100%;
+	height: auto;
+}
+
+.img--scale {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.img--scale img {
+  width: 100%;
+  transition-duration: .4s;
+}
+
+.img--scale__on {
+  transform: scale(1.1,1.1);
+  cursor: pointer;
+}

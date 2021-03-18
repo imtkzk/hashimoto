@@ -1,0 +1,11 @@
+//compileExpanded: ../css/$1.css
+
+@import 'base/reset';
+@import 'base/variable';
+@import 'base/base';
+@import 'base/utils';
+
+@import 'project/common';
+@import 'project/qualityMain';
+@import 'project/town';
+@import 'project/_excellent';
