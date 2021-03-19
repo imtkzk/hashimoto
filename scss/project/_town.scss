@@ -82,6 +82,9 @@
             .maketown-list {
                 margin: vw-sp(50) auto;
                 max-width: vw-sp(690);
+                li{
+                    margin-bottom: vw-sp(40);
+                }
             }
 
             .maketown-list::after {
@@ -380,6 +383,9 @@
                     display: flex;
                     justify-content: space-between;
                     align-items: center;
+                    li{
+                        margin-bottom: 0;
+                    }
                 }
 
                 .maketown-list::after {
