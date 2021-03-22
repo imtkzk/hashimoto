@@ -208,16 +208,15 @@
                 margin-bottom: vw-sp(80);
             }
             .after-plus::after{
-                content: "テスト";
+                content: "";
                 position: absolute;
-                background: url("../../img/disaster/after-plus-2x.png") no-repeat center center;
+                background: url("../img/disaster/after-plus-2x.png") no-repeat center center;
                 background-size: contain;
-                display: inline-block;
                 width: vw-sp(70);
                 height: vw-sp(71);
                 right: 50%;
                 left: 50%;
-                bottom: 0;
+                bottom: vw-sp(400);
                 -webkit-transform: translate(-50%, -50%);
                 transform: translate(-50%, -50%);
             }

@@ -3028,16 +3028,15 @@ footer #page_top a:hover {
 }
 
 .disaster .sec-resistant .seismicresistancelevel-damper-imgbox .after-plus::after {
-  content: "テスト";
+  content: "";
   position: absolute;
-  background: url("../../img/disaster/after-plus-2x.png") no-repeat center center;
+  background: url("../img/disaster/after-plus-2x.png") no-repeat center center;
   background-size: contain;
-  display: inline-block;
   width: 9.33333vw;
   height: 9.46667vw;
   right: 50%;
   left: 50%;
-  bottom: 0;
+  bottom: 53.33333vw;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
