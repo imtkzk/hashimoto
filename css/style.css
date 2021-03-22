@@ -3030,7 +3030,7 @@ footer #page_top a:hover {
 .disaster .sec-resistant .seismicresistancelevel-damper-imgbox .after-plus::after {
   content: "";
   position: absolute;
-  background: url("../../img/disaster/after-plus-2x.png") no-repeat center center;
+  background: url("../img/disaster/after-plus-2x.png") no-repeat center center;
   background-size: contain;
   width: 9.33333vw;
   height: 9.46667vw;
