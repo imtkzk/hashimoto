@@ -47,28 +47,93 @@
     }
 }
 
-@media screen and (min-width: $breakpoint2) {
+.disaster {
+    .sec-disasterintro {
+        text-align: center;
+
+        .sec-cmn-cont-head {
+            .sec-title {
+                span {
+                    color: #BE243C;
+                }
+            }
+        }
+
+        .sec-cmn-cont {
+            text-align: left;
+            border-top: vw-sp(1) solid #ccc;
+            margin-top: 0;
+            padding-top: vw-sp(30);
+
+            .about-hazardmap {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                border-top: vw-sp(6) dotted #D4EFFB;
+                border-bottom: vw-sp(6) dotted #D4EFFB;
+                padding: vw-sp(20) 0;
+                margin-top: vw-sp(30);
+
+                .left {
+                    width: vw-sp(600);
+                }
+
+                h3 {
+                    color: $color-main;
+                    font-size: vw-sp(24);
+                    font-weight: 700;
+                    margin-bottom: vw-sp(20);
+                }
+
+                .right {
+                    width: vw-sp(350);
+                }
+            }
+        }
+    }
+}
+@media screen and (min-width: $breakpoint1) {
     .disaster {
         .sec-disasterintro {
-            text-align: center;
 
-            .sec-cmn-cont-head {
-                .sec-title {
-                    span {
-                        color: #BE243C;
+            .sec-cmn-cont {
+                text-align: left;
+                border-top: vw-pc(1) solid #ccc;
+                padding-top: vw-pc(30);
+
+                .about-hazardmap {
+                    border-top: vw-pc(6) dotted #D4EFFB;
+                    border-bottom: vw-pc(6) dotted #D4EFFB;
+                    padding: vw-pc(20) 0;
+                    margin-top: vw-pc(30);
+
+                    .left {
+                        width: vw-pc(600);
+                    }
+
+                    h3 {
+                        font-size: vw-pc(24);
+                        font-weight: 700;
+                        margin-bottom: vw-pc(20);
+                    }
+
+                    .right {
+                        width: vw-pc(350);
                     }
                 }
             }
+        }
+    }
+}
+@media screen and (min-width: $breakpoint2) {
+    .disaster {
+        .sec-disasterintro {
 
             .sec-cmn-cont {
                 border-top: 1px solid #ccc;
-                margin-top: 0;
                 padding-top: 30px;
 
                 .about-hazardmap {
-                    display: flex;
-                    justify-content: space-between;
-                    align-items: center;
                     border-top: 6px dotted #D4EFFB;
                     border-bottom: 6px dotted #D4EFFB;
                     padding: 20px 0;
@@ -79,7 +144,6 @@
                     }
 
                     h3 {
-                        color: $color-main;
                         font-size: 24px;
                         font-weight: 700;
                         margin-bottom: 20px;
@@ -94,80 +158,279 @@
     }
 }
 
-@media screen and (min-width: $breakpoint2) {
-    .disaster {
-        .sec-resistant {
-            .sec-title {
-                text-align: center;
+.disaster {
+    .sec-resistant {
+        .sec-title {
+            text-align: center;
 
-                span {
-                    color: #BE243C;
-                }
+            span {
+                color: #BE243C;
+            }
+        }
+
+        .sec-cmn-cont {
+            border-top: vw-sp(1) solid #ccc;
+            margin-top: 0;
+            padding-top: vw-sp(30);
+        }
+
+        .resistant-txt {
+            margin: vw-sp(35) auto;
+
+            .underline {
+                text-decoration: underline;
             }
 
+            .b {
+                font-weight: 700;
+            }
+
+            .color-blue {
+                color: $color-main;
+            }
+
+            .color-red {
+                color: #BE243C;
+            }
+
+            a:hover {
+                opacity: 0.7;
+            }
+        }
+        .seismicresistancelevel-damper-imgbox{
+            position: relative;
+            width: 100%;
+            max-width: vw-sp(690);
+            margin: 0 auto;
+            div{
+                margin-bottom: vw-sp(80);
+            }
+            .after-plus::after{
+                content: "";
+                position: absolute;
+                background: url("../../img/disaster/after-plus-2x.png") no-repeat center center;
+                background-size: contain;
+                width: vw-sp(70);
+                height: vw-sp(71);
+                right: 50%;
+                left: 50%;
+                bottom: vw-sp(400);
+                -webkit-transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%);
+            }
+        }
+        .flooddamage{
+            margin-top: vw-sp(80);
+            .flooddamage-list ul{
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                .list{
+                    background-color: #DCF5FF;
+                    display: flex;
+                    align-items: center;
+                    padding: vw-sp(10) vw-sp(20);
+                    p{
+                        font-weight: 700;
+                        text-indent: -3.2em;
+                        padding-left: 3.2em;
+                        margin-left: vw-sp(20);
+                    }
+                }
+                .list01, .list02{
+                    margin-bottom: vw-sp(20);
+                }
+                .list03{
+                    width: 100%;
+                    justify-content: center;
+                    margin-top: vw-sp(20);
+                    .list-img{
+                        width: auto;
+                    }
+                }
+            }
+            .caution{
+                font-size: vw-sp(13);
+                margin-top: vw-sp(10);
+            }
+        }
+        .winddamage{
+            margin-top: vw-sp(80);
+            .winddamage-list ul{
+                .list{
+                    background-color: #FFEFCF;
+                    padding: vw-sp(40) vw-sp(20);
+                    margin-top: vw-sp(20);
+                    .list-img{
+                        width: vw-sp(600);
+                        margin: 0 auto vw-sp(20);
+                        img{
+                            width: 100%;
+                        }
+                    }
+                    p{
+                        font-weight: 700;
+                        margin-left: vw-sp(20);
+                    }
+                }
+            }
+            .caution{
+                font-size: vw-sp(13);
+                margin-top: vw-sp(10);
+            }
+        }
+    }
+}
+@media screen and (min-width: $breakpoint1) {
+    .disaster {
+        .sec-resistant {
+
             .sec-cmn-cont {
-                border-top: 1px solid #ccc;
-                margin-top: 0;
-                padding-top: 30px;
+                border-top: vw-pc(1) solid #ccc;
+                padding-top: vw-pc(30);
             }
 
             .resistant-txt {
-                margin: 30px auto;
-
-                .underline {
-                    text-decoration: underline;
-                }
-
-                .b {
-                    font-weight: 700;
-                }
-
-                .color-blue {
-                    color: $color-main;
-                }
-
-                .color-red {
-                    color: #BE243C;
-                }
-
-                a:hover {
-                    opacity: 0.7;
-                }
+                margin: vw-pc(35) auto;
             }
             .seismicresistancelevel-damper-imgbox{
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
-                position: relative;
+                max-width: vw-pc(1000);
+                div{
+                    margin-bottom: 0;
+                    width: vw-pc(410);
+                }
+                .after-plus::after{
+                    bottom: 25%;
+                    width: vw-pc(70);
+                    height: vw-pc(71);
+                }
+            }
+            .flooddamage{
+                margin-top: vw-pc(80);
+                .flooddamage-list ul{
+                    .list{
+                        padding: vw-pc(10) vw-pc(10);
+                        p{
+                            margin-left: vw-pc(20);
+                        }
+                    }
+                    .list01, .list02{
+                        width: vw-pc(450);
+                        margin-bottom: 0;
+                    }
+                    .list03{
+                        margin-top: vw-pc(20);
+                        .list-img{
+                            width: vw-pc(70);
+                        }
+                    }
+                }
+                .caution{
+                    font-size: vw-pc(13);
+                    margin-top: vw-pc(10);
+                }
+            }
+            .winddamage{
+                margin-top: vw-pc(80);
+                .winddamage-list ul{
+                    .list{
+                        display: flex;
+                        align-items: center;
+                        padding: vw-pc(10) vw-pc(20);
+                        margin-top: vw-pc(20);
+                        .list-img{
+                            width: vw-pc(400);
+                            img{
+                                width: vw-pc(300);
+                            }
+                        }
+                        p{
+                            font-weight: 700;
+                            margin-left: vw-pc(20);
+                        }
+                    }
+                }
+                .caution{
+                    font-size: vw-pc(13);
+                    margin-top: vw-pc(10);
+                }
+            }
+        }
+    }
+}
+@media screen and (min-width: $breakpoint2) {
+    .disaster {
+        .sec-resistant {
+
+            .sec-cmn-cont {
+                border-top: 1px solid #ccc;
+                padding-top: 30px;
+            }
+
+            .resistant-txt {
+                margin: 35px auto;
+            }
+            .seismicresistancelevel-damper-imgbox{
                 width: 100%;
                 max-width: 1000px;
-                margin: 0 auto;
                 div{
                     width: calc(50% - 75px);
                 }
                 .after-plus::after{
-                    content: "";
-                    position: absolute;
-                    background: url("../../img/disaster/after-plus-2x.png") no-repeat center center;
-                    background-size: contain;
                     width: 70px;
                     height: 71px;
-                    top: 50%;
-                    left: 50%;
-                    -webkit-transform: translate(-50%, -50%);
-                    transform: translate(-50%, -50%);
                 }
             }
             .flooddamage{
-                margin-top: 50px;
-                .flooddamage-list{
-                    display: flex;
-                    flex-wrap: wrap;
+                margin-top: 80px;
+                .flooddamage-list ul{
                     .list{
-                        background-color: #DCF5FF;
-                        display: flex;
-                        align-items: center;
+                        padding: 10px 20px;
+                        p{
+                            font-weight: 700;
+                            margin-left: 20px;
+                        }
                     }
+                    .list01, .list02{
+                        width: calc(50% - 10px);
+                    }
+                    .list03{
+                        width: 100%;
+                        margin-top: 20px;
+                        .list-img{
+                            width: 70px;
+                        }
+                    }
+                }
+                .caution{
+                    font-size: 13px;
+                    margin-top: 10px;
+                }
+            }
+            .winddamage{
+                margin-top: 80px;
+                .winddamage-list ul{
+                    .list{
+                        padding: 10px 20px;
+                        margin-top: 20px;
+                        .list-img{
+                            width: 400px;
+                            img{
+                                width: auto;
+                            }
+                        }
+                        p{
+                            font-weight: 700;
+                            margin-left: 20px;
+                        }
+                    }
+                }
+                .caution{
+                    font-size: 13px;
+                    margin-top: 10px;
                 }
             }
         }
