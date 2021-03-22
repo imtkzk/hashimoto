@@ -2839,4 +2839,167 @@ footer #page_top a:hover {
     padding-top: 30px;
   }
 }
+
+/*  disaster CSS
+------------------------------------------------------------------------------*/
+.disaster .disaster-hero .hero-img {
+  background: url("../img/disaster/disaster-hero-bg-2x.png") no-repeat center center;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 66.66667vw;
+}
+
+.disaster .disaster-hero .hero-img h2 {
+  color: #fff;
+  font-weight: 700;
+  font-size: 6.4vw;
+}
+
+@media screen and (min-width: 769px) {
+  .disaster .disaster-hero .hero-img {
+    height: 50vw;
+  }
+  .disaster .disaster-hero .hero-img h2 {
+    font-size: 5.6vw;
+  }
+}
+
+@media screen and (min-width: 1001px) {
+  .disaster .disaster-hero .hero-img {
+    height: 500px;
+  }
+  .disaster .disaster-hero .hero-img h2 {
+    font-size: 56px;
+  }
+}
+
+@media screen and (min-width: 1001px) {
+  .disaster .sec-disasterintro {
+    text-align: center;
+  }
+  .disaster .sec-disasterintro .sec-cmn-cont-head .sec-title span {
+    color: #BE243C;
+  }
+  .disaster .sec-disasterintro .sec-cmn-cont {
+    border-top: 1px solid #ccc;
+    margin-top: 0;
+    padding-top: 30px;
+  }
+  .disaster .sec-disasterintro .sec-cmn-cont .about-hazardmap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border-top: 6px dotted #D4EFFB;
+    border-bottom: 6px dotted #D4EFFB;
+    padding: 20px 0;
+    margin-top: 30px;
+  }
+  .disaster .sec-disasterintro .sec-cmn-cont .about-hazardmap .left {
+    width: 600px;
+  }
+  .disaster .sec-disasterintro .sec-cmn-cont .about-hazardmap h3 {
+    color: #174788;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  .disaster .sec-disasterintro .sec-cmn-cont .about-hazardmap .right {
+    width: 350px;
+  }
+}
+
+@media screen and (min-width: 1001px) {
+  .disaster .sec-resistant .sec-title {
+    text-align: center;
+  }
+  .disaster .sec-resistant .sec-title span {
+    color: #BE243C;
+  }
+  .disaster .sec-resistant .sec-cmn-cont {
+    border-top: 1px solid #ccc;
+    margin-top: 0;
+    padding-top: 30px;
+  }
+  .disaster .sec-resistant .resistant-txt {
+    margin: 30px auto;
+  }
+  .disaster .sec-resistant .resistant-txt .underline {
+    text-decoration: underline;
+  }
+  .disaster .sec-resistant .resistant-txt .b {
+    font-weight: 700;
+  }
+  .disaster .sec-resistant .resistant-txt .color-blue {
+    color: #174788;
+  }
+  .disaster .sec-resistant .resistant-txt .color-red {
+    color: #BE243C;
+  }
+  .disaster .sec-resistant .resistant-txt a:hover {
+    opacity: 0.7;
+  }
+  .disaster .sec-resistant .seismicresistancelevel-damper-imgbox {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  .disaster .sec-resistant .seismicresistancelevel-damper-imgbox div {
+    width: calc(50% - 75px);
+  }
+  .disaster .sec-resistant .seismicresistancelevel-damper-imgbox .after-plus::after {
+    content: "";
+    position: absolute;
+    background: url("../../img/disaster/after-plus-2x.png") no-repeat center center;
+    background-size: contain;
+    width: 70px;
+    height: 71px;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  .disaster .sec-resistant .flooddamage {
+    margin-top: 50px;
+  }
+  .disaster .sec-resistant .flooddamage .flooddamage-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .disaster .sec-resistant .flooddamage .flooddamage-list .list {
+    background-color: #DCF5FF;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
 /*# sourceMappingURL=style.css.map */
