@@ -3093,8 +3093,8 @@ footer #page_top a:hover {
 .disaster .sec-resistant .flooddamage .caution {
   font-size: 2.93333vw;
   margin-top: 1.33333vw;
-  text-indent: -1.5em;
-  padding-left: 1.5em;
+  text-indent: -1em;
+  padding-left: 1em;
 }
 
 .disaster .sec-resistant .winddamage {
@@ -3124,8 +3124,8 @@ footer #page_top a:hover {
 .disaster .sec-resistant .winddamage .caution {
   font-size: 2.93333vw;
   margin-top: 1.33333vw;
-  text-indent: -1.5em;
-  padding-left: 1.5em;
+  text-indent: -1em;
+  padding-left: 1em;
 }
 
 @media screen and (min-width: 769px) {
@@ -3177,7 +3177,7 @@ footer #page_top a:hover {
     width: 7vw;
   }
   .disaster .sec-resistant .flooddamage .caution {
-    font-size: 1.3vw;
+    font-size: 2vw;
     margin-top: 1vw;
   }
   .disaster .sec-resistant .winddamage {
@@ -3195,6 +3195,7 @@ footer #page_top a:hover {
   }
   .disaster .sec-resistant .winddamage .winddamage-list ul .list .list-img {
     width: 40vw;
+    margin: 0 auto;
   }
   .disaster .sec-resistant .winddamage .winddamage-list ul .list .list-img img {
     width: 30vw;
@@ -3204,7 +3205,7 @@ footer #page_top a:hover {
     margin-left: 2vw;
   }
   .disaster .sec-resistant .winddamage .caution {
-    font-size: 1.3vw;
+    font-size: 2vw;
     margin-top: 1vw;
   }
 }

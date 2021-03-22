@@ -254,8 +254,8 @@
             .caution{
                 font-size: vw-sp(22);
                 margin-top: vw-sp(10);
-                text-indent: -1.5em;
-                padding-left: 1.5em;
+                text-indent: -1em;
+                padding-left: 1em;
             }
         }
         .winddamage{
@@ -281,8 +281,8 @@
             .caution{
                 font-size: vw-sp(22);
                 margin-top: vw-sp(10);
-                text-indent: -1.5em;
-                padding-left: 1.5em;
+                text-indent: -1em;
+                padding-left: 1em;
             }
         }
     }
@@ -335,7 +335,7 @@
                     }
                 }
                 .caution{
-                    font-size: vw-pc(13);
+                    font-size: vw-pc(20);
                     margin-top: vw-pc(10);
                 }
             }
@@ -349,6 +349,7 @@
                         margin-top: vw-pc(20);
                         .list-img{
                             width: vw-pc(400);
+                            margin: 0 auto;
                             img{
                                 width: vw-pc(300);
                             }
@@ -360,7 +361,7 @@
                     }
                 }
                 .caution{
-                    font-size: vw-pc(13);
+                    font-size: vw-pc(20);
                     margin-top: vw-pc(10);
                 }
             }
