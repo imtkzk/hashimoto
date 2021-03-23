@@ -59,7 +59,7 @@
 
             h3 {
                 font-weight: 600;
-                font-size: vw-sp(24);
+                font-size: vw-sp(36);
                 color: $color-main;
                 margin-bottom: vw-sp(30);
             }
@@ -88,6 +88,7 @@
             .sec-cmn-cont {
                 border-top: vw-pc(1) solid #ccc;
                 padding-top: vw-pc(30);
+                text-align: center;
 
                 h3 {
                     font-size: vw-pc(24);
@@ -291,58 +292,56 @@
 
                         .list03-box-inner {
                             width: 96%;
-                            max-width: 1000px;
+                            max-width: vw-sp(690);
                             margin: 0 auto;
-                            padding: 30px 0;
-                            display: flex;
-                            justify-content: space-between;
+                            padding: vw-sp(30) 0;
                             text-align: left;
 
                             .txt-box {
-                                width: 550px;
+                                width: vw-sp(690);
 
                                 .txt {
-                                    border-bottom: 1px solid #ccc;
-                                    padding-bottom: 20px;
-                                    margin-bottom: 20px;
+                                    border-bottom: vw-sp(1) solid #ccc;
+                                    padding-bottom: vw-sp(20);
+                                    margin-bottom: vw-sp(20);
                                 }
 
                                 .caution {
                                     text-indent: -2em;
                                     padding-left: 2em;
-                                    font-size: 15px;
+                                    font-size: vw-sp(22);
                                 }
                             }
 
                             .img-box {
-                                width: 400px;
+                                width: vw-sp(690);
+                                margin-top: vw-sp(20);
                             }
                         }
                     }
 
                     .list04-box {
                         background-color: #FFEABF;
-                        margin-top: 30px;
+                        margin-top: vw-sp(30);
 
                         .list04-box-inner {
                             width: 96%;
-                            max-width: 1000px;
+                            max-width: vw-sp(690);
                             margin: 0 auto;
-                            display: flex;
-                            justify-content: space-between;
                             text-align: left;
 
                             .txt-box {
-                                padding: 30px 0;
-                                width: 550px;
+                                padding: vw-sp(30) 0;
+                                width: vw-sp(690);
                                 color: $color-main;
 
                                 .txt-box-title {
-                                    border-bottom: 1px solid $color-main;
-                                    padding-bottom: 20px;
-                                    margin-bottom: 20px;
+                                    border-bottom: vw-sp(1) solid $color-main;
+                                    padding-bottom: vw-sp(20);
+                                    margin-bottom: vw-sp(20);
 
                                     h4 {
+                                        font-size: vw-sp(36);
                                         font-weight: 600;
                                     }
                                 }
@@ -350,12 +349,13 @@
                                 .caution {
                                     text-indent: -2em;
                                     padding-left: 2em;
-                                    font-size: 15px;
+                                    font-size: vw-sp(22);
                                 }
                             }
 
                             .img-box {
-                                width: 400px;
+                                width: vw-sp(690);
+                                margin-top: 0;
                             }
                         }
                     }
@@ -694,12 +694,14 @@
                             }
 
                             .allresult {
+                                background-color: #FCFAE1;
                                 position: initial;
                                 bottom: vw-sp(0);
                                 width: 96%;
                                 left: 0;
                                 right: 0;
                                 margin: auto;
+                                padding-bottom: vw-sp(30);
 
                                 .allresult-box {
                                     border: vw-sp(4) solid #00B8EE;
@@ -734,12 +736,23 @@
                                 -o-background-size: vw-sp(116);
                                 background-size: vw-sp(116);
                                 background-position: left 10% center,right 10% center;
+                                .construction-box{
+                                    width: 96%;
+                                    max-width: vw-sp(690);
+                                    margin: 0 auto;
+                                }
                                 h3{
                                     color: $color-text;
+                                    margin-top: 0;
                                 }
                                 h4{
                                     font-weight: 700;
                                     margin-bottom: vw-sp(30);
+                                }
+                                .caution{
+                                    text-align: left;
+                                    text-indent: -1em;
+                                    padding-left: 1em;
                                 }
                             }
                         }
@@ -753,13 +766,12 @@
                         margin-top: vw-sp(30);
                         .savinghabits-box{
                             width: 96%;
-                            max-width: vw-sp(1000);
+                            max-width: vw-sp(690);
                             margin: 0 auto;
-                            display: flex;
-                            justify-content: space-between;
                             .left{
-                                width: vw-sp(550);
+                                width: vw-sp(690);
                             h4{
+                                text-align: left;
                                 font-weight: 700;
                                 padding-bottom: vw-sp(20);
                                 margin-bottom: vw-sp(20);
@@ -767,7 +779,7 @@
                             }
                         }
                         .right{
-                            width: vw-sp(400);
+                            width: vw-sp(690);
                         }
                         }
                     }
@@ -795,6 +807,9 @@
 
                         li {
                             margin:0 vw-pc(20) 0 0;
+                            a:hover{
+                                opacity: 0.7;
+                            }
                         }
                         li:last-child {
                             margin-right: 0;
@@ -833,12 +848,14 @@
                         .list03-box {
 
                             .list03-box-inner {
+                                display: flex;
+                                justify-content: space-between;
                                 width: 96%;
                                 max-width: vw-pc(1000);
                                 padding: vw-pc(30) 0;
 
                                 .txt-box {
-                                    width: vw-pc(550);
+                                    width: vw-pc(600);
 
                                     .txt {
                                         border-bottom: vw-pc(1) solid #ccc;
@@ -852,7 +869,8 @@
                                 }
 
                                 .img-box {
-                                    width: vw-pc(400);
+                                    width: vw-pc(350);
+                                    margin: 0;
                                 }
                             }
                         }
@@ -862,15 +880,21 @@
 
                             .list04-box-inner {
                                 max-width: vw-pc(1000);
+                                display: flex;
+                                justify-content: space-between;
 
                                 .txt-box {
                                     padding: vw-pc(30) 0;
-                                    width: vw-pc(550);
+                                    width: vw-pc(600);
 
                                     .txt-box-title {
                                         border-bottom: vw-pc(1) solid $color-main;
                                         padding-bottom: vw-pc(20);
                                         margin-bottom: vw-pc(20);
+                                        h4{
+
+                                        font-size: vw-pc(18);
+                                        }
                                     }
 
                                     .caution {
@@ -879,7 +903,7 @@
                                 }
 
                                 .img-box {
-                                    width: vw-pc(400);
+                                    width: vw-pc(350);
                                 }
                             }
                         }
@@ -1053,6 +1077,7 @@
                                                     border-left: vw-pc(7) solid #aaa;
                                                     padding: vw-pc(20);
                                                     dt{
+                                                        margin-bottom: vw-pc(10);
 
                                                     font-size: vw-pc(16);
                                                     }
@@ -1077,7 +1102,7 @@
                                                         width: 90%;
                                                         border: vw-pc(1) solid #aaa;
                                                         padding: vw-pc(20);
-                                                        margin-bottom: vw-pc(377);
+                                                        margin-bottom: vw-pc(376);
 
                                                         span {
                                                             font-size: vw-pc(24);
@@ -1143,8 +1168,10 @@
 
                                 .allresult {
                                     position: absolute;
-                                    bottom: vw-pc(570);
+                                    bottom: vw-pc(550);
                                     width: 96%;
+                                    padding: 0;
+                                    background: none;
 
                                     .allresult-box {
                                         border: vw-pc(4) solid #00B8EE;
@@ -1173,6 +1200,14 @@
                                     h4{
                                         margin-bottom: vw-pc(30);
                                     }
+                                    .construction-box{
+                                        width: 96%;
+                                        max-width: 1000px;
+                                        margin: 0 auto;
+                                    }
+                                    .caution{
+                                        text-align: center;
+                                    }
                                 }
                             }
                         }
@@ -1182,6 +1217,8 @@
                             padding: vw-pc(30) 0;
                             margin-top: vw-pc(30);
                             .savinghabits-box{
+                                display: flex;
+                                justify-content: space-between;
                                 width: 96%;
                                 max-width: vw-pc(1000);
                                 .left{
@@ -1254,7 +1291,7 @@
                                 padding: 30px 0;
 
                                 .txt-box {
-                                    width: 550px;
+                                    width: 600px;
 
                                     .txt {
                                         border-bottom: 1px solid #ccc;
@@ -1268,7 +1305,7 @@
                                 }
 
                                 .img-box {
-                                    width: 400px;
+                                    width: 350px;
                                 }
                             }
                         }
@@ -1281,13 +1318,17 @@
 
                                 .txt-box {
                                     padding: 30px 0;
-                                    width: 550px;
+                                    width: 600px;
 
                                     .txt-box-title {
                                         border-bottom: 1px solid $color-main;
                                         padding-bottom: 20px;
                                         margin-bottom: 20px;
+                                        h4{
+
+                                        font-size: 18px;
                                     }
+                                }
 
                                     .caution {
                                         font-size: 15px;
@@ -1295,7 +1336,7 @@
                                 }
 
                                 .img-box {
-                                    width: 400px;
+                                    width: 350px;
                                 }
                             }
                         }
@@ -1466,6 +1507,7 @@
                                                     border-left: 7px solid #aaa;
                                                     padding: 20px;
                                                     dt{
+                                                        margin-bottom:10px;
 
                                                     font-size: 16px;
                                                     }
@@ -1490,7 +1532,7 @@
                                                         width: 90%;
                                                         border: 1px solid #aaa;
                                                         padding: 20px;
-                                                        margin-bottom: 377px;
+                                                        margin-bottom: 376px;
 
                                                         span {
                                                             font-size: 24px;
@@ -1555,7 +1597,7 @@
                                 }
 
                                 .allresult {
-                                    bottom: 570px;
+                                    bottom: 550px;
                                     width: 96%;
 
                                     .allresult-box {

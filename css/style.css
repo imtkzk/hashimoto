@@ -3330,7 +3330,7 @@ footer #page_top a:hover {
 
 .zeh .sec-zehintro .sec-cmn-cont h3 {
   font-weight: 600;
-  font-size: 3.2vw;
+  font-size: 4.8vw;
   color: #174788;
   margin-bottom: 4vw;
 }
@@ -3351,6 +3351,7 @@ footer #page_top a:hover {
   .zeh .sec-zehintro .sec-cmn-cont {
     border-top: 0.1vw solid #ccc;
     padding-top: 3vw;
+    text-align: center;
   }
   .zeh .sec-zehintro .sec-cmn-cont h3 {
     font-size: 2.4vw;
@@ -3537,80 +3538,71 @@ footer #page_top a:hover {
 
 .zeh .sec-fourmerit .sec-cmn-cont .fourmerit-list .list .list03-box .list03-box-inner {
   width: 96%;
-  max-width: 1000px;
+  max-width: 92vw;
   margin: 0 auto;
-  padding: 30px 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  padding: 4vw 0;
   text-align: left;
 }
 
 .zeh .sec-fourmerit .sec-cmn-cont .fourmerit-list .list .list03-box .list03-box-inner .txt-box {
-  width: 550px;
+  width: 92vw;
 }
 
 .zeh .sec-fourmerit .sec-cmn-cont .fourmerit-list .list .list03-box .list03-box-inner .txt-box .txt {
-  border-bottom: 1px solid #ccc;
-  padding-bottom: 20px;
-  margin-bottom: 20px;
+  border-bottom: 0.13333vw solid #ccc;
+  padding-bottom: 2.66667vw;
+  margin-bottom: 2.66667vw;
 }
 
 .zeh .sec-fourmerit .sec-cmn-cont .fourmerit-list .list .list03-box .list03-box-inner .txt-box .caution {
   text-indent: -2em;
   padding-left: 2em;
-  font-size: 15px;
+  font-size: 2.93333vw;
 }
 
 .zeh .sec-fourmerit .sec-cmn-cont .fourmerit-list .list .list03-box .list03-box-inner .img-box {
-  width: 400px;
+  width: 92vw;
+  margin-top: 2.66667vw;
 }
 
 .zeh .sec-fourmerit .sec-cmn-cont .fourmerit-list .list .list04-box {
   background-color: #FFEABF;
-  margin-top: 30px;
+  margin-top: 4vw;
 }
 
 .zeh .sec-fourmerit .sec-cmn-cont .fourmerit-list .list .list04-box .list04-box-inner {
   width: 96%;
-  max-width: 1000px;
+  max-width: 92vw;
   margin: 0 auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   text-align: left;
 }
 
 .zeh .sec-fourmerit .sec-cmn-cont .fourmerit-list .list .list04-box .list04-box-inner .txt-box {
-  padding: 30px 0;
-  width: 550px;
+  padding: 4vw 0;
+  width: 92vw;
   color: #174788;
 }
 
 .zeh .sec-fourmerit .sec-cmn-cont .fourmerit-list .list .list04-box .list04-box-inner .txt-box .txt-box-title {
-  border-bottom: 1px solid #174788;
-  padding-bottom: 20px;
-  margin-bottom: 20px;
+  border-bottom: 0.13333vw solid #174788;
+  padding-bottom: 2.66667vw;
+  margin-bottom: 2.66667vw;
 }
 
 .zeh .sec-fourmerit .sec-cmn-cont .fourmerit-list .list .list04-box .list04-box-inner .txt-box .txt-box-title h4 {
+  font-size: 4.8vw;
   font-weight: 600;
 }
 
 .zeh .sec-fourmerit .sec-cmn-cont .fourmerit-list .list .list04-box .list04-box-inner .txt-box .caution {
   text-indent: -2em;
   padding-left: 2em;
-  font-size: 15px;
+  font-size: 2.93333vw;
 }
 
 .zeh .sec-fourmerit .sec-cmn-cont .fourmerit-list .list .list04-box .list04-box-inner .img-box {
-  width: 400px;
+  width: 92vw;
+  margin-top: 0;
 }
 
 .zeh .sec-fourmerit .sec-cmn-cont .fourmerit-list .list02 .comparison {
@@ -3945,12 +3937,14 @@ footer #page_top a:hover {
 }
 
 .zeh .sec-fourmerit .sec-cmn-cont .fourmerit-list .list02 .comparison .comparison-cont .allresult {
+  background-color: #FCFAE1;
   position: initial;
   bottom: 0vw;
   width: 96%;
   left: 0;
   right: 0;
   margin: auto;
+  padding-bottom: 4vw;
 }
 
 .zeh .sec-fourmerit .sec-cmn-cont .fourmerit-list .list02 .comparison .comparison-cont .allresult .allresult-box {
@@ -3986,13 +3980,26 @@ footer #page_top a:hover {
   background-position: left 10% center,right 10% center;
 }
 
+.zeh .sec-fourmerit .sec-cmn-cont .fourmerit-list .list02 .comparison .comparison-cont .construction .construction-box {
+  width: 96%;
+  max-width: 92vw;
+  margin: 0 auto;
+}
+
 .zeh .sec-fourmerit .sec-cmn-cont .fourmerit-list .list02 .comparison .comparison-cont .construction h3 {
   color: #434242;
+  margin-top: 0;
 }
 
 .zeh .sec-fourmerit .sec-cmn-cont .fourmerit-list .list02 .comparison .comparison-cont .construction h4 {
   font-weight: 700;
   margin-bottom: 4vw;
+}
+
+.zeh .sec-fourmerit .sec-cmn-cont .fourmerit-list .list02 .comparison .comparison-cont .construction .caution {
+  text-align: left;
+  text-indent: -1em;
+  padding-left: 1em;
 }
 
 .zeh .sec-fourmerit .sec-cmn-cont .fourmerit-list .list02 .powersaving .savinghabits {
@@ -4004,21 +4011,16 @@ footer #page_top a:hover {
 
 .zeh .sec-fourmerit .sec-cmn-cont .fourmerit-list .list02 .powersaving .savinghabits .savinghabits-box {
   width: 96%;
-  max-width: 133.33333vw;
+  max-width: 92vw;
   margin: 0 auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
 }
 
 .zeh .sec-fourmerit .sec-cmn-cont .fourmerit-list .list02 .powersaving .savinghabits .savinghabits-box .left {
-  width: 73.33333vw;
+  width: 92vw;
 }
 
 .zeh .sec-fourmerit .sec-cmn-cont .fourmerit-list .list02 .powersaving .savinghabits .savinghabits-box .left h4 {
+  text-align: left;
   font-weight: 700;
   padding-bottom: 2.66667vw;
   margin-bottom: 2.66667vw;
@@ -4026,7 +4028,7 @@ footer #page_top a:hover {
 }
 
 .zeh .sec-fourmerit .sec-cmn-cont .fourmerit-list .list02 .powersaving .savinghabits .savinghabits-box .right {
-  width: 53.33333vw;
+  width: 92vw;
 }
 
 @media screen and (min-width: 769px) {
@@ -4043,6 +4045,9 @@ footer #page_top a:hover {
   }
   .zeh .sec-fourmerit .sec-cmn-cont .fourmerit-link ul li {
     margin: 0 2vw 0 0;
+  }
+  .zeh .sec-fourmerit .sec-cmn-cont .fourmerit-link ul li a:hover {
+    opacity: 0.7;
   }
   .zeh .sec-fourmerit .sec-cmn-cont .fourmerit-link ul li:last-child {
     margin-right: 0;
@@ -4073,12 +4078,18 @@ footer #page_top a:hover {
     text-align: center;
   }
   .zeh .sec-fourmerit .sec-cmn-cont .fourmerit-list .list .list03-box .list03-box-inner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     width: 96%;
     max-width: 100vw;
     padding: 3vw 0;
   }
   .zeh .sec-fourmerit .sec-cmn-cont .fourmerit-list .list .list03-box .list03-box-inner .txt-box {
-    width: 55vw;
+    width: 60vw;
   }
   .zeh .sec-fourmerit .sec-cmn-cont .fourmerit-list .list .list03-box .list03-box-inner .txt-box .txt {
     border-bottom: 0.1vw solid #ccc;
@@ -4089,28 +4100,38 @@ footer #page_top a:hover {
     font-size: 1.5vw;
   }
   .zeh .sec-fourmerit .sec-cmn-cont .fourmerit-list .list .list03-box .list03-box-inner .img-box {
-    width: 40vw;
+    width: 35vw;
+    margin: 0;
   }
   .zeh .sec-fourmerit .sec-cmn-cont .fourmerit-list .list .list04-box {
     margin-top: 3vw;
   }
   .zeh .sec-fourmerit .sec-cmn-cont .fourmerit-list .list .list04-box .list04-box-inner {
     max-width: 100vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
   .zeh .sec-fourmerit .sec-cmn-cont .fourmerit-list .list .list04-box .list04-box-inner .txt-box {
     padding: 3vw 0;
-    width: 55vw;
+    width: 60vw;
   }
   .zeh .sec-fourmerit .sec-cmn-cont .fourmerit-list .list .list04-box .list04-box-inner .txt-box .txt-box-title {
     border-bottom: 0.1vw solid #174788;
     padding-bottom: 2vw;
     margin-bottom: 2vw;
   }
+  .zeh .sec-fourmerit .sec-cmn-cont .fourmerit-list .list .list04-box .list04-box-inner .txt-box .txt-box-title h4 {
+    font-size: 1.8vw;
+  }
   .zeh .sec-fourmerit .sec-cmn-cont .fourmerit-list .list .list04-box .list04-box-inner .txt-box .caution {
     font-size: 1.5vw;
   }
   .zeh .sec-fourmerit .sec-cmn-cont .fourmerit-list .list .list04-box .list04-box-inner .img-box {
-    width: 40vw;
+    width: 35vw;
   }
   .zeh .sec-fourmerit .sec-cmn-cont .fourmerit-list .list01 {
     width: 96%;
@@ -4244,6 +4265,7 @@ footer #page_top a:hover {
     padding: 2vw;
   }
   .zeh .sec-fourmerit .sec-cmn-cont .fourmerit-list .list02 .comparison .comparison-cont ul.comparison-cont-list .list-general .comparsion-list-cont .data dl dt {
+    margin-bottom: 1vw;
     font-size: 1.6vw;
   }
   .zeh .sec-fourmerit .sec-cmn-cont .fourmerit-list .list02 .comparison .comparison-cont ul.comparison-cont-list .list-general .comparsion-list-cont .price-box .price-box-title h5 {
@@ -4258,7 +4280,7 @@ footer #page_top a:hover {
     width: 90%;
     border: 0.1vw solid #aaa;
     padding: 2vw;
-    margin-bottom: 37.7vw;
+    margin-bottom: 37.6vw;
   }
   .zeh .sec-fourmerit .sec-cmn-cont .fourmerit-list .list02 .comparison .comparison-cont ul.comparison-cont-list .list-general .comparsion-list-cont .price-box .price-box-cont ul span {
     font-size: 2.4vw;
@@ -4300,8 +4322,10 @@ footer #page_top a:hover {
   }
   .zeh .sec-fourmerit .sec-cmn-cont .fourmerit-list .list02 .comparison .comparison-cont .allresult {
     position: absolute;
-    bottom: 57vw;
+    bottom: 55vw;
     width: 96%;
+    padding: 0;
+    background: none;
   }
   .zeh .sec-fourmerit .sec-cmn-cont .fourmerit-list .list02 .comparison .comparison-cont .allresult .allresult-box {
     border: 0.4vw solid #00B8EE;
@@ -4325,11 +4349,25 @@ footer #page_top a:hover {
   .zeh .sec-fourmerit .sec-cmn-cont .fourmerit-list .list02 .comparison .comparison-cont .construction h4 {
     margin-bottom: 3vw;
   }
+  .zeh .sec-fourmerit .sec-cmn-cont .fourmerit-list .list02 .comparison .comparison-cont .construction .construction-box {
+    width: 96%;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  .zeh .sec-fourmerit .sec-cmn-cont .fourmerit-list .list02 .comparison .comparison-cont .construction .caution {
+    text-align: center;
+  }
   .zeh .sec-fourmerit .sec-cmn-cont .fourmerit-list .list02 .powersaving .savinghabits {
     padding: 3vw 0;
     margin-top: 3vw;
   }
   .zeh .sec-fourmerit .sec-cmn-cont .fourmerit-list .list02 .powersaving .savinghabits .savinghabits-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     width: 96%;
     max-width: 100vw;
   }
@@ -4382,7 +4420,7 @@ footer #page_top a:hover {
     padding: 30px 0;
   }
   .zeh .sec-fourmerit .sec-cmn-cont .fourmerit-list .list .list03-box .list03-box-inner .txt-box {
-    width: 550px;
+    width: 600px;
   }
   .zeh .sec-fourmerit .sec-cmn-cont .fourmerit-list .list .list03-box .list03-box-inner .txt-box .txt {
     border-bottom: 1px solid #ccc;
@@ -4393,7 +4431,7 @@ footer #page_top a:hover {
     font-size: 15px;
   }
   .zeh .sec-fourmerit .sec-cmn-cont .fourmerit-list .list .list03-box .list03-box-inner .img-box {
-    width: 400px;
+    width: 350px;
   }
   .zeh .sec-fourmerit .sec-cmn-cont .fourmerit-list .list .list04-box {
     margin-top: 30px;
@@ -4403,18 +4441,21 @@ footer #page_top a:hover {
   }
   .zeh .sec-fourmerit .sec-cmn-cont .fourmerit-list .list .list04-box .list04-box-inner .txt-box {
     padding: 30px 0;
-    width: 550px;
+    width: 600px;
   }
   .zeh .sec-fourmerit .sec-cmn-cont .fourmerit-list .list .list04-box .list04-box-inner .txt-box .txt-box-title {
     border-bottom: 1px solid #174788;
     padding-bottom: 20px;
     margin-bottom: 20px;
   }
+  .zeh .sec-fourmerit .sec-cmn-cont .fourmerit-list .list .list04-box .list04-box-inner .txt-box .txt-box-title h4 {
+    font-size: 18px;
+  }
   .zeh .sec-fourmerit .sec-cmn-cont .fourmerit-list .list .list04-box .list04-box-inner .txt-box .caution {
     font-size: 15px;
   }
   .zeh .sec-fourmerit .sec-cmn-cont .fourmerit-list .list .list04-box .list04-box-inner .img-box {
-    width: 400px;
+    width: 350px;
   }
   .zeh .sec-fourmerit .sec-cmn-cont .fourmerit-list .list02 .comparison {
     margin-top: 50px;
@@ -4538,6 +4579,7 @@ footer #page_top a:hover {
     padding: 20px;
   }
   .zeh .sec-fourmerit .sec-cmn-cont .fourmerit-list .list02 .comparison .comparison-cont ul.comparison-cont-list .list-general .comparsion-list-cont .data dl dt {
+    margin-bottom: 10px;
     font-size: 16px;
   }
   .zeh .sec-fourmerit .sec-cmn-cont .fourmerit-list .list02 .comparison .comparison-cont ul.comparison-cont-list .list-general .comparsion-list-cont .price-box .price-box-title h5 {
@@ -4552,7 +4594,7 @@ footer #page_top a:hover {
     width: 90%;
     border: 1px solid #aaa;
     padding: 20px;
-    margin-bottom: 377px;
+    margin-bottom: 376px;
   }
   .zeh .sec-fourmerit .sec-cmn-cont .fourmerit-list .list02 .comparison .comparison-cont ul.comparison-cont-list .list-general .comparsion-list-cont .price-box .price-box-cont ul span {
     font-size: 24px;
@@ -4593,7 +4635,7 @@ footer #page_top a:hover {
     border-bottom: 15px solid #fff;
   }
   .zeh .sec-fourmerit .sec-cmn-cont .fourmerit-list .list02 .comparison .comparison-cont .allresult {
-    bottom: 570px;
+    bottom: 550px;
     width: 96%;
   }
   .zeh .sec-fourmerit .sec-cmn-cont .fourmerit-list .list02 .comparison .comparison-cont .allresult .allresult-box {
