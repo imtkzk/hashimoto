@@ -228,6 +228,7 @@
             border-top: vw-sp(1) solid #ccc;
             padding-top: vw-sp(30);
             margin-top: 0;
+            margin-bottom: 0;
             width: 100%;
             max-width: 100%;
 
@@ -261,6 +262,7 @@
                         font-weight: 600;
                         position: relative;
                         margin: vw-sp(30) 0;
+                        padding-top: vw-sp(60);
 
                         span {
                             display: block;
@@ -291,6 +293,8 @@
                         background-color: #D4EFFB;
 
                         .list03-box-inner {
+                            display: flex;
+                            flex-direction : column-reverse;
                             width: 96%;
                             max-width: vw-sp(690);
                             margin: 0 auto;
@@ -314,8 +318,10 @@
                             }
 
                             .img-box {
-                                width: vw-sp(690);
-                                margin-top: vw-sp(20);
+                                width: vw-sp(500);
+                                margin-left: auto;
+                                margin-right: auto;
+                                margin-bottom: vw-sp(40);
                             }
                         }
                     }
@@ -325,6 +331,8 @@
                         margin-top: vw-sp(30);
 
                         .list04-box-inner {
+                            display: flex;
+                            flex-direction : column-reverse;
                             width: 96%;
                             max-width: vw-sp(690);
                             margin: 0 auto;
@@ -354,8 +362,11 @@
                             }
 
                             .img-box {
-                                width: vw-sp(690);
-                                margin-top: 0;
+                                width: vw-sp(500);
+                                margin-left: auto;
+                                margin-right: auto;
+                                margin-bottom: 0;
+                                margin-top: vw-sp(20);
                             }
                         }
                     }
@@ -765,6 +776,8 @@
                         padding: vw-sp(30) 0;
                         margin-top: vw-sp(30);
                         .savinghabits-box{
+                            display: flex;
+                            flex-direction : column-reverse;
                             width: 96%;
                             max-width: vw-sp(690);
                             margin: 0 auto;
@@ -779,7 +792,10 @@
                             }
                         }
                         .right{
-                            width: vw-sp(690);
+                            width: vw-sp(540);
+                            margin-left: auto;
+                            margin-bottom: vw-sp(20);
+                            margin-right: auto;
                         }
                         }
                     }
@@ -824,6 +840,7 @@
                         h3 {
                             font-size: vw-pc(24);
                             margin: vw-pc(30) 0;
+                            padding-top: vw-pc(30);
 
                             span {
                                 display: initial;
@@ -850,6 +867,7 @@
                             .list03-box-inner {
                                 display: flex;
                                 justify-content: space-between;
+                                flex-direction : row;
                                 width: 96%;
                                 max-width: vw-pc(1000);
                                 padding: vw-pc(30) 0;
@@ -882,6 +900,7 @@
                                 max-width: vw-pc(1000);
                                 display: flex;
                                 justify-content: space-between;
+                                flex-direction : row;
 
                                 .txt-box {
                                     padding: vw-pc(30) 0;
@@ -904,6 +923,7 @@
 
                                 .img-box {
                                     width: vw-pc(350);
+                                    margin-top: 0;
                                 }
                             }
                         }
@@ -1071,11 +1091,12 @@
 
                                             .data {
                                                 margin-top: vw-pc(30);
+                                                margin-bottom: vw-pc(65);
 
                                                 dl {
                                                     border: vw-pc(1) solid #aaa;
                                                     border-left: vw-pc(7) solid #aaa;
-                                                    padding: vw-pc(20);
+                                                    padding: vw-pc(61) 0;
                                                     dt{
                                                         margin-bottom: vw-pc(10);
 
@@ -1102,7 +1123,7 @@
                                                         width: 90%;
                                                         border: vw-pc(1) solid #aaa;
                                                         padding: vw-pc(20);
-                                                        margin-bottom: vw-pc(376);
+                                                        margin-bottom: vw-pc(174);
 
                                                         span {
                                                             font-size: vw-pc(24);
@@ -1168,7 +1189,7 @@
 
                                 .allresult {
                                     position: absolute;
-                                    bottom: vw-pc(550);
+                                    bottom: vw-pc(580);
                                     width: 96%;
                                     padding: 0;
                                     background: none;
@@ -1219,6 +1240,7 @@
                             .savinghabits-box{
                                 display: flex;
                                 justify-content: space-between;
+                                flex-direction : row;
                                 width: 96%;
                                 max-width: vw-pc(1000);
                                 .left{
@@ -1231,6 +1253,7 @@
                             }
                             .right{
                                 width: vw-pc(400);
+                                margin-top: 0;
                             }
                             }
                         }
@@ -1269,6 +1292,7 @@
                         h3 {
                             font-size: 24px;
                             margin: 30px 0;
+                            padding-top: 30px;
 
                             span {
                                 margin-right: 20px;
@@ -1278,8 +1302,8 @@
                                 border: 3px dotted $color-main;
                                 width: 50px;
                                 height: 50px;
-                                top: -16px;
-                                right: -11px;
+                                top: -60%;
+                                right: -25%;
                             }
                         }
 
@@ -1501,11 +1525,12 @@
 
                                             .data {
                                                 margin-top: 30px;
+                                                margin-bottom: 66px;
 
                                                 dl {
                                                     border: 1px solid #aaa;
                                                     border-left: 7px solid #aaa;
-                                                    padding: 20px;
+                                                    padding: 61px 0;
                                                     dt{
                                                         margin-bottom:10px;
 
@@ -1532,7 +1557,7 @@
                                                         width: 90%;
                                                         border: 1px solid #aaa;
                                                         padding: 20px;
-                                                        margin-bottom: 376px;
+                                                        margin-bottom: 174px;
 
                                                         span {
                                                             font-size: 24px;
@@ -1597,7 +1622,7 @@
                                 }
 
                                 .allresult {
-                                    bottom: 550px;
+                                    bottom: 580px;
                                     width: 96%;
 
                                     .allresult-box {
@@ -1661,3 +1686,130 @@
         }
     }
 }
+
+
+/* モーダルウィンドウ */
+
+.modal{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    z-index: 9999;
+  }
+  .modal__bg{
+    background: rgba(0,0,0,0.8);
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+  }
+  .modal__content{
+    background: #fff;
+    left: 50%;
+    padding: vw-sp(80);
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 80%;
+  }
+  
+  .modal-img{
+    display: block;
+    margin: 0 auto;
+    width: 70%;
+    img{
+        width: auto;
+    }
+  }
+  
+  .kanki-modal{
+    width: 20%!important;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+  }
+  .modal-content{
+    position: relative;
+  }
+  .syoene-img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: vw-sp(150);
+    height: vw-sp(40);
+    display: block;
+  }
+  .souene-img{
+    position: absolute;
+    top: 0;
+    left: vw-sp(180);
+    width: vw-sp(130);
+    height: vw-sp(40);
+    display: block;
+  }
+  .led-img{
+    position: absolute;
+    top: 0;
+    left: vw-sp(340);
+    width: vw-sp(120);
+    height: vw-sp(40);
+    display: block;
+  }
+  .dannetsu-img{
+    position: absolute;
+    top: 0;
+    left: vw-sp(490);
+    width: vw-sp(135);
+    height: vw-sp(40);
+    display: block;
+  }
+  .kanki-img{
+    position: absolute;
+    bottom: vw-sp(140);
+    right: 0;
+    width: vw-sp(43);
+    height: vw-sp(140);
+    display: block;
+  }
+  
+  .syokusai-img{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: vw-sp(140);
+    height: vw-sp(40);
+    display: block;
+  }
+  .eakon-img{
+    position: absolute;
+    bottom: 0;
+    left: vw-sp(150);
+    width: vw-sp(150);
+    height: vw-sp(40);
+    display: block;
+  }
+  .hems-img{
+    position: absolute;
+    bottom: 0;
+    left: vw-sp(315);
+    width: vw-sp(125);
+    height: vw-sp(40);
+    display: block;
+  }
+  
+  .kyuyu-img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: vw-sp(170);
+    height: vw-sp(40);
+    display: block;
+  }
+  
+  .js-modal-close{
+    color: blue;
+    display: block;
+    text-align: right;
+  }
