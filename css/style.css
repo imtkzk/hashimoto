@@ -3511,20 +3511,13 @@ footer #page_top a:hover {
 
 .zeh .sec-fourmerit .sec-cmn-cont .fourmerit-list .list h3 span {
   display: block;
-  position: relative;
-  margin-right: 2.66667vw;
-  margin-bottom: 6.66667vw;
-}
-
-.zeh .sec-fourmerit .sec-cmn-cont .fourmerit-list .list h3 span::before {
-  content: "";
-  position: absolute;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 2.66667vw;
+  border: 0.26667vw dotted #174788;
   border-radius: 100vh;
-  border: 0.8vw dotted #174788;
-  width: 13.33333vw;
-  height: 13.33333vw;
-  top: -4.66667vw;
-  right: 41.33333vw;
+  line-height: 3em;
+  width: 14.93333vw;
 }
 
 .zeh .sec-fourmerit .sec-cmn-cont .fourmerit-list .list p.textarea {
@@ -4092,16 +4085,11 @@ footer #page_top a:hover {
     padding-top: 3vw;
   }
   .zeh .sec-fourmerit .sec-cmn-cont .fourmerit-list .list h3 span {
-    display: initial;
-    margin-right: 2vw;
-    margin-bottom: 0;
-  }
-  .zeh .sec-fourmerit .sec-cmn-cont .fourmerit-list .list h3 span::before {
-    border: 0.3vw dotted #174788;
-    width: 5vw;
-    height: 5vw;
-    top: -1.2vw;
-    right: -1vw;
+    display: inline-block;
+    margin-right: 1vw;
+    border: 0.2vw dotted #174788;
+    line-height: 2.5em;
+    width: 6.3vw;
   }
   .zeh .sec-fourmerit .sec-cmn-cont .fourmerit-list .list p.textarea {
     max-width: 1000px;
@@ -4453,14 +4441,9 @@ footer #page_top a:hover {
     padding-top: 30px;
   }
   .zeh .sec-fourmerit .sec-cmn-cont .fourmerit-list .list h3 span {
-    margin-right: 20px;
-  }
-  .zeh .sec-fourmerit .sec-cmn-cont .fourmerit-list .list h3 span::before {
-    border: 3px dotted #174788;
-    width: 50px;
-    height: 50px;
-    top: -12px;
-    right: -10px;
+    margin-right: 10px;
+    border: 2px dotted #174788;
+    width: 63px;
   }
   .zeh .sec-fourmerit .sec-cmn-cont .fourmerit-list .list .list03-box .list03-box-inner {
     width: 96%;

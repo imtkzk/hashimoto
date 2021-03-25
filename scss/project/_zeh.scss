@@ -266,20 +266,13 @@
 
                         span {
                             display: block;
-                            position: relative;
-                            margin-right: vw-sp(20);
-                            margin-bottom: vw-sp(50);
-                        }
-
-                        span::before {
-                            content: "";
-                            position: absolute;
+                            margin-right: auto;
+                            margin-left: auto;
+                            margin-bottom: vw-sp(20);
+                            border: vw-sp(2) dotted $color-main;
                             border-radius: 100vh;
-                            border: vw-sp(6) dotted $color-main;
-                            width: vw-sp(100);
-                            height: vw-sp(100);
-                            top: vw-sp(-35);
-                            right: vw-sp(310);
+                            line-height: 3em;
+                            width: vw-sp(112);
                         }
                     }
                     p.textarea{
@@ -843,17 +836,11 @@
                             padding-top: vw-pc(30);
 
                             span {
-                                display: initial;
-                                margin-right: vw-pc(20);
-                                margin-bottom: 0;
-                            }
-
-                            span::before {
-                                border: vw-pc(3) dotted $color-main;
-                                width: vw-pc(50);
-                                height: vw-pc(50);
-                                top: vw-pc(-12);
-                                right: vw-pc(-10);
+                                display: inline-block;
+                                margin-right: vw-pc(10);
+                                border: vw-pc(2) dotted $color-main;
+                                line-height: 2.5em;
+                                width: vw-pc(63);
                             }
                         }
                         p.textarea{
@@ -1295,15 +1282,9 @@
                             padding-top: 30px;
 
                             span {
-                                margin-right: 20px;
-                            }
-
-                            span::before {
-                                border: 3px dotted $color-main;
-                                width: 50px;
-                                height: 50px;
-                                top: -12px;
-                                right: -10px;
+                                margin-right: 10px;
+                                border: 2px dotted $color-main;
+                                width: 63px;
                             }
                         }
 
