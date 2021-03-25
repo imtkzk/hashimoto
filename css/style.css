@@ -4100,7 +4100,7 @@ footer #page_top a:hover {
     border: 0.3vw dotted #174788;
     width: 5vw;
     height: 5vw;
-    top: -1.6vw;
+    top: -1.2vw;
     right: -1vw;
   }
   .zeh .sec-fourmerit .sec-cmn-cont .fourmerit-list .list p.textarea {
@@ -4459,8 +4459,8 @@ footer #page_top a:hover {
     border: 3px dotted #174788;
     width: 50px;
     height: 50px;
-    top: -60%;
-    right: -25%;
+    top: -12px;
+    right: -10px;
   }
   .zeh .sec-fourmerit .sec-cmn-cont .fourmerit-list .list .list03-box .list03-box-inner {
     width: 96%;
