@@ -3071,14 +3071,14 @@ footer #page_top a:hover {
 }
 
 .disaster .sec-resistant .flooddamage .flooddamage-list ul .list .list-img {
-  width: 29.33333vw;
+  width: 34.66667vw;
 }
 
 .disaster .sec-resistant .flooddamage .flooddamage-list ul .list p {
   font-weight: 700;
   text-indent: -3.2em;
   padding-left: 3.2em;
-  margin-left: 2.66667vw;
+  margin-left: 0;
 }
 
 .disaster .sec-resistant .flooddamage .flooddamage-list ul .list01, .disaster .sec-resistant .flooddamage .flooddamage-list ul .list02 {
@@ -3166,11 +3166,11 @@ footer #page_top a:hover {
   .disaster .sec-resistant .flooddamage .flooddamage-list ul .list {
     padding: 1vw 1vw;
   }
+  .disaster .sec-resistant .flooddamage .flooddamage-list ul .list .list-img {
+    width: auto;
+  }
   .disaster .sec-resistant .flooddamage .flooddamage-list ul .list p {
     margin-left: 2vw;
-  }
-  .disaster .sec-resistant .flooddamage .flooddamage-list ul .list .list-img {
-    width: 14vw;
   }
   .disaster .sec-resistant .flooddamage .flooddamage-list ul .list01, .disaster .sec-resistant .flooddamage .flooddamage-list ul .list02 {
     width: 45vw;
@@ -3244,9 +3244,6 @@ footer #page_top a:hover {
   .disaster .sec-resistant .flooddamage .flooddamage-list ul .list p {
     font-weight: 700;
     margin-left: 20px;
-  }
-  .disaster .sec-resistant .flooddamage .flooddamage-list ul .list .list-img {
-    width: 140px;
   }
   .disaster .sec-resistant .flooddamage .flooddamage-list ul .list01, .disaster .sec-resistant .flooddamage .flooddamage-list ul .list02 {
     width: calc(50% - 10px);

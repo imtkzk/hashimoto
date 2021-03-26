@@ -236,13 +236,13 @@
                     align-items: center;
                     padding: vw-sp(10) vw-sp(20);
                     .list-img{
-                        width: vw-sp(260);
+                        width: vw-sp(220);
                     }
                     p{
                         font-weight: 700;
                         text-indent: -3.2em;
                         padding-left: 3.2em;
-                        margin-left: 0;
+                        margin-left: vw-sp(20);
                     }
                 }
                 .list01, .list02{
@@ -325,6 +325,9 @@
                         p{
                             margin-left: vw-pc(20);
                         }
+                        .list-img{
+                            width: vw-pc(140);
+                        }
                     }
                     .list01, .list02{
                         width: vw-pc(450);
@@ -402,6 +405,9 @@
                         p{
                             font-weight: 700;
                             margin-left: 20px;
+                        }
+                        .list-img{
+                            width: 140px;
                         }
                     }
                     .list01, .list02{
