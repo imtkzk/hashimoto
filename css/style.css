@@ -2925,6 +2925,9 @@ footer #page_top a:hover {
     border-top: 0.1vw solid #ccc;
     padding-top: 3vw;
   }
+  .disaster .sec-disasterintro .sec-cmn-cont .introtxt {
+    text-align: center;
+  }
   .disaster .sec-disasterintro .sec-cmn-cont .about-hazardmap {
     display: -webkit-box;
     display: -ms-flexbox;
