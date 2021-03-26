@@ -235,6 +235,9 @@
                     display: flex;
                     align-items: center;
                     padding: vw-sp(10) vw-sp(20);
+                    .list-img{
+                        width: vw-sp(260);
+                    }
                     p{
                         font-weight: 700;
                         text-indent: -3.2em;
@@ -249,9 +252,6 @@
                     width: 100%;
                     justify-content: center;
                     margin-top: vw-sp(20);
-                    .list-img{
-                        width: auto;
-                    }
                 }
             }
             .caution{

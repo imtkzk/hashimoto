@@ -3070,6 +3070,10 @@ footer #page_top a:hover {
   padding: 1.33333vw 2.66667vw;
 }
 
+.disaster .sec-resistant .flooddamage .flooddamage-list ul .list .list-img {
+  width: 34.66667vw;
+}
+
 .disaster .sec-resistant .flooddamage .flooddamage-list ul .list p {
   font-weight: 700;
   text-indent: -3.2em;
@@ -3087,10 +3091,6 @@ footer #page_top a:hover {
       -ms-flex-pack: center;
           justify-content: center;
   margin-top: 2.66667vw;
-}
-
-.disaster .sec-resistant .flooddamage .flooddamage-list ul .list03 .list-img {
-  width: auto;
 }
 
 .disaster .sec-resistant .flooddamage .caution {
