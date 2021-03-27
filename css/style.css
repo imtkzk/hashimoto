@@ -4119,6 +4119,9 @@ footer #page_top a:hover {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
@@ -4153,6 +4156,9 @@ footer #page_top a:hover {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
@@ -4413,6 +4419,9 @@ footer #page_top a:hover {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
@@ -4430,7 +4439,10 @@ footer #page_top a:hover {
   }
   .zeh .sec-fourmerit .sec-cmn-cont .fourmerit-list .list02 .powersaving .savinghabits .savinghabits-box .right {
     width: 40vw;
-    margin-top: 0;
+    margin: 0;
+  }
+  .zeh .sec-fourmerit .sec-cmn-cont .fourmerit-list .list04 .textarea {
+    padding-left: 2vw;
   }
 }
 
@@ -4728,6 +4740,9 @@ footer #page_top a:hover {
   }
   .zeh .sec-fourmerit .sec-cmn-cont .fourmerit-list .list02 .powersaving .savinghabits .savinghabits-box .right {
     width: 400px;
+  }
+  .zeh .sec-fourmerit .sec-cmn-cont .fourmerit-list .list04 .textarea {
+    padding-left: 20px;
   }
 }
 

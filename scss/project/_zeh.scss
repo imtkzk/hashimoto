@@ -854,6 +854,7 @@
                             .list03-box-inner {
                                 display: flex;
                                 justify-content: space-between;
+                                align-items: center;
                                 flex-direction : row;
                                 width: 96%;
                                 max-width: vw-pc(1000);
@@ -882,11 +883,11 @@
 
                         .list04-box {
                             margin-top: vw-pc(30);
-
                             .list04-box-inner {
                                 max-width: vw-pc(1000);
                                 display: flex;
                                 justify-content: space-between;
+                                align-items: center;
                                 flex-direction : row;
 
                                 .txt-box {
@@ -1227,6 +1228,7 @@
                             .savinghabits-box{
                                 display: flex;
                                 justify-content: space-between;
+                                align-items: center;
                                 flex-direction : row;
                                 width: 96%;
                                 max-width: vw-pc(1000);
@@ -1240,10 +1242,15 @@
                             }
                             .right{
                                 width: vw-pc(400);
-                                margin-top: 0;
+                                margin: 0;
                             }
                             }
                         }
+                        }
+                    }
+                    .list04{
+                        .textarea{
+                            padding-left: vw-pc(20);
                         }
                     }
                 }
@@ -1660,6 +1667,12 @@
                             }
                             }
                         }
+                        }
+                    }
+
+                    .list04{
+                        .textarea{
+                            padding-left: 20px;
                         }
                     }
                 }
