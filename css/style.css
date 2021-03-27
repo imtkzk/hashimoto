@@ -3166,6 +3166,9 @@ footer #page_top a:hover {
   .disaster .sec-resistant .flooddamage .flooddamage-list ul .list {
     padding: 1vw 1vw;
   }
+  .disaster .sec-resistant .flooddamage .flooddamage-list ul .list .list-img {
+    width: auto;
+  }
   .disaster .sec-resistant .flooddamage .flooddamage-list ul .list p {
     margin-left: 2vw;
     width: auto;

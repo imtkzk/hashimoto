@@ -322,6 +322,9 @@
                 .flooddamage-list ul{
                     .list{
                         padding: vw-pc(10) vw-pc(10);
+                        .list-img{
+                            width: auto;
+                        }
                         p{
                             margin-left: vw-pc(20);
                             width: auto;
